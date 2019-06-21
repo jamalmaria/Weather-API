@@ -9,10 +9,13 @@ function formSub(){
     httpRequestAsync(url, theResponse);
 }
 function theResponse(response){
+    let box = document.getElementById('box');
+    box.style.margin = "6%";
     let jsonObject = JSON.parse(response);
     console.log(jsonObject)
     box1.style.display = "block"
     results.style.display = "block"
+   
     let condition = jsonObject.weather[0].description
     let name = jsonObject.name;
     let temp = Math.floor(jsonObject.main.temp - 273);

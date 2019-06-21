@@ -14,8 +14,10 @@ function formSub(){
         }
     })
     function showResults(result) {
+        let box = document.getElementById('box');
+        box.style.margin = "6%";
         results.style.display = "block";
-       
+        
         let condition = result.weather[0].description;
         let name = result.name;
         let temp = Math.floor(result.main.temp - 273);
