@@ -86,7 +86,7 @@ function theResponse(response){
     }
     let humidity = jsonObject.main.humidity;
     results.innerHTML = `<h1>${name}</h1>
-                         <h3 style="fontSize:5px;">Temperature: ${temp}°</h3>
+                         <h3>Temperature: ${temp}°</h3>
                          <h3>Sky Condition: ${condition}<h3>
                          <h3>Humidity: ${humidity}%</h3>`;
     cityVal.innerHTML = jsonObject.name;

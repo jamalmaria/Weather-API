@@ -1,5 +1,4 @@
 body{
-    /* background-image: linear-gradient(white,rgb(154, 209, 253)); */
     background-image: url(../Media/2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,6 +17,7 @@ body{
     font-size: 55px !important;
     font-weight: 800 !important;
     text-shadow: 2px 2px black;
+
 }
 .container{
     display: grid;
@@ -57,7 +57,7 @@ footer{
 @media only screen and (max-width: 494px){
     body{
         width: 100vw;
-        height: auto;
+        height: 100%;
     }
     .box1{
         width:auto;
@@ -82,15 +82,19 @@ footer{
         grid-gap: 5px;
     }
     footer{
+
         font-size: 20px;
         bottom: 0;
+    }
+    .results h3{
+        font-size: 20px;
+    }
+    .tips p{
+        font-size: 20px;
     }
 }
 @media only screen and (max-width:990px){
     .container{
         display: block;
     }
-}
-@media only screen and (max-width:767px) and (min-width:600px){
-
 }
