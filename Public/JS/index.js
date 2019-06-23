@@ -57,6 +57,10 @@ function theResponse(response){
         document.body.style.background = "url('https://cdn.pixabay.com/photo/2016/02/11/07/37/tornado-1193184_960_720.jpg')";
         document.body.style.backgroundSize = "100% 100%";
         document.body.style.overflow = "hidden";
+    }else if(sky == "Haze"){
+        document.body.style.background = "url('https://photos.smugmug.com/Portfolio/topshots/i-zddgk8M/0/L/hazy-london-L.jpg')";
+        document.body.style.backgroundSize = "100% 100%";
+        document.body.style.overflow = "hidden";
     }else{
         document.body.style.background = "url('https://www.arkessa.com/wp-content/uploads/2016/12/dawn-sun-mountain-landscape-65865.jpg')";
         document.body.style.backgroundSize = "100% 100%";
